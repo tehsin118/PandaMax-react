@@ -1,0 +1,67 @@
+.Ecosytem {
+  background-color: aliceblue;
+  height: 100vh;
+  padding: 50px;
+}
+.Ecosytem .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+}
+.Ecosytem .section-heading h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #000b33;
+}
+.Ecosytem .section-heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000b33;
+  opacity: 0.7;
+}
+
+.Ecosytem .Ecosytem-content .left-side {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Ecosytem .Ecosytem-content .right-side {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  text-align: right;
+}
+.Ecosytem .Ecosytem-content .left-side .left,
+.Ecosytem .Ecosytem-content .right-side .left {
+  margin-right: 1rem;
+}
+
+.Ecosytem .Ecosytem-content .content-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000b33;
+  margin-bottom: 1rem;
+}
+.Ecosytem .Ecosytem-content .content-detail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #000b33;
+  opacity: 0.7;
+}
