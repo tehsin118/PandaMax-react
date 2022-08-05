@@ -65,12 +65,7 @@ export default function Hero() {
                 <div>
                   <h1>PandaMax The people's cryptocurrency.</h1>
                 </div>
-                <div>
-                  <p>
-                    PandaMax (PANDA) is a community-focused, decentralised
-                    cryptocurrency with instant rewards thanks to users 🐼
-                  </p>
-                </div>
+                <div></div>
                 <div className="btns">
                   <a href="#" className="btn-primary">
                     How To Buy

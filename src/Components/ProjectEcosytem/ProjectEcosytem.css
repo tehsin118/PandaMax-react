@@ -10,7 +10,7 @@
   flex-direction: column;
   height: 100%;
 }
-.Ecosytem .section-heading h2 {
+.section-heading h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -18,7 +18,7 @@
   text-align: center;
   color: #000b33;
 }
-.Ecosytem .section-heading p {
+.section-heading p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;

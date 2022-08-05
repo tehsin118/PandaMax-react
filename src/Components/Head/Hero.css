@@ -23,13 +23,7 @@ a {
 }
 
 .main-head {
-  /* background: url("\assets\Head\bg.jpg"); */
-  background: linear-gradient(
-    90.28deg,
-    #001c80 0.26%,
-    #153abf 30.33%,
-    #2b59ff 99.79%
-  );
+  background-image: url("/src/img/header-background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

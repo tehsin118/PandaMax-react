@@ -1,0 +1,31 @@
+/* .pandaMaxRoadmap {
+  background-color: aliceblue;
+} */
+.pandaMaxRoadmap .PandaMaxRoadmap-content .card .card-header {
+  /* border: none; */
+  background: transparent;
+}
+.pandaMaxRoadmap .PandaMaxRoadmap-content .card .card-header h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #000b33;
+}
+.pandaMaxRoadmap .PandaMaxRoadmap-content .card .card-header h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  /* line-height: 79px; */
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #000b33;
+}
+.pandaMaxRoadmap .PandaMaxRoadmap-content .card {
+  box-shadow: -20px 10px 60px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 95%;
+}

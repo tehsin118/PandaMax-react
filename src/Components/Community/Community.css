@@ -1,0 +1,94 @@
+.community {
+  background: url("/src/img/community-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.community .container .head-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.community .container .head-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.community .container .subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe .input-wrap {
+  background: #fff;
+  display: flex;
+  padding: 0.3rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.subscribe .input-wrap input {
+  width: 100%;
+  border: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.subscribe .input-wrap input:focus {
+  outline: none;
+}
+
+.subscribe .input-wrap a {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #fd4c5c;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  width: 30%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .subscribe .input-wrap {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .subscribe .input-wrap {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .subscribe .input-wrap {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .subscribe .input-wrap a {
+    font-size: 0.75rem;
+  }
+}
